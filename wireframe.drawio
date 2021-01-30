@@ -1,0 +1,112 @@
+<mxfile host="65bd71144e" modified="2021-01-30T19:58:27.572Z" agent="5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.52.1 Chrome/83.0.4103.122 Electron/9.3.5 Safari/537.36" version="13.10.0" etag="eJts56vqWijunyTRYsD6" type="embed">
+    <diagram id="IwIjYBU_u74t5SFnshND" name="Page-1">
+        <mxGraphModel dx="2503" dy="1814" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="10000" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="17" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="72" y="40" width="706.66" height="530" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="17">
+                    <mxGeometry width="700" height="510" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://c0.wallpaperflare.com/preview/405/127/680/speaker-music-loud-sound.jpg;" vertex="1" parent="17">
+                    <mxGeometry width="706.66" height="530" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;font style=&quot;font-size: 10px&quot; color=&quot;#b266ff&quot;&gt;Log In/Sign Up&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeWidth=1;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;fontColor=#7F00FF;strokeColor=#B266FF;" vertex="1" parent="17">
+                    <mxGeometry x="468" y="10" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;font style=&quot;font-size: 10px&quot;&gt;Your Profile&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fontColor=#FFFFFF;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;fillColor=#B266FF;" vertex="1" parent="17">
+                    <mxGeometry x="148" y="10" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;font style=&quot;font-size: 25px&quot;&gt;Drop a Beat&lt;br&gt;&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeWidth=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;fontColor=#FFFFFF;fillColor=#B266FF;" vertex="1" parent="17">
+                    <mxGeometry x="265" y="10" width="170" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="&lt;b style=&quot;color: rgb(108 , 118 , 125)&quot;&gt;&lt;span style=&quot;font-size: 20px&quot;&gt;Post&lt;/span&gt;&lt;/b&gt;&lt;br style=&quot;color: rgb(108 , 118 , 125)&quot;&gt;&lt;br style=&quot;color: rgb(108 , 118 , 125)&quot;&gt;&lt;br style=&quot;color: rgb(108 , 118 , 125)&quot;&gt;&lt;br style=&quot;color: rgb(108 , 118 , 125)&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(108 , 118 , 125) ; font-size: 15px ; font-weight: bold&quot;&gt;Caption&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(108 , 118 , 125) ; font-size: 15px ; font-weight: bold&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(108 , 118 , 125) ; font-size: 15px ; font-weight: bold&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;html=1;whiteSpace=wrap;fillColor=#ffffff;fontColor=#33A64C;verticalAlign=bottom;align=center;spacing=20;spacingBottom=0;fontSize=14;strokeColor=#B266FF;" vertex="1" parent="17">
+                    <mxGeometry x="192.5" y="127.5" width="315" height="255" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Username (Also a Link)" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#F7F7F7;fontColor=#6C767D;resizeWidth=1;fontSize=18;align=left;spacing=20;strokeColor=#B266FF;" vertex="1" parent="12">
+                    <mxGeometry width="315" height="50" relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="Comments" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#F7F7F7;fontColor=#6C767D;resizeWidth=1;fontSize=18;align=left;spacing=20;strokeColor=#B266FF;direction=west;" vertex="1" parent="12">
+                    <mxGeometry y="205" width="315" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="890" y="40" width="706.66" height="530" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="18">
+                    <mxGeometry width="700" height="510" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://c0.wallpaperflare.com/preview/405/127/680/speaker-music-loud-sound.jpg;" vertex="1" parent="18">
+                    <mxGeometry width="706.66" height="530" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="&lt;font style=&quot;font-size: 10px&quot;&gt;Home&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fontColor=#FFFFFF;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;fillColor=#B266FF;" vertex="1" parent="18">
+                    <mxGeometry x="148" y="10" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="&lt;font style=&quot;font-size: 25px&quot;&gt;Profile&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeWidth=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;fontColor=#FFFFFF;fillColor=#B266FF;" vertex="1" parent="18">
+                    <mxGeometry x="265" y="10" width="170" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;html=1;whiteSpace=wrap;fillColor=#ffffff;fontColor=#33A64C;verticalAlign=bottom;align=center;spacing=20;spacingBottom=0;fontSize=14;strokeColor=#B266FF;" vertex="1" parent="18">
+                    <mxGeometry x="192.5" y="127.5" width="315" height="255" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="Favorite Beatboxers" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#F7F7F7;fontColor=#6C767D;resizeWidth=1;fontSize=18;align=left;spacing=20;strokeColor=#B266FF;" vertex="1" parent="24">
+                    <mxGeometry width="315" height="50" relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="70" y="650" width="706.66" height="530" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="26">
+                    <mxGeometry width="700" height="510" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://c0.wallpaperflare.com/preview/405/127/680/speaker-music-loud-sound.jpg;" vertex="1" parent="26">
+                    <mxGeometry width="706.66" height="530" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="&lt;font style=&quot;font-size: 10px&quot; color=&quot;#b266ff&quot;&gt;Log In/Sign Up&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeWidth=1;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;fontColor=#7F00FF;strokeColor=#B266FF;" vertex="1" parent="26">
+                    <mxGeometry x="468" y="10" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="&lt;font style=&quot;font-size: 10px&quot;&gt;Your Profile&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fontColor=#FFFFFF;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;fillColor=#B266FF;" vertex="1" parent="26">
+                    <mxGeometry x="148" y="10" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="&lt;font style=&quot;font-size: 25px&quot;&gt;Creat A Post&lt;br&gt;&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeWidth=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;fontColor=#FFFFFF;fillColor=#B266FF;" vertex="1" parent="26">
+                    <mxGeometry x="265" y="10" width="170" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="&lt;font color=&quot;#6c767d&quot;&gt;&lt;span style=&quot;font-size: 20px&quot;&gt;&lt;b&gt;Caption&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;html=1;whiteSpace=wrap;fillColor=#ffffff;fontColor=#33A64C;verticalAlign=bottom;align=center;spacing=20;spacingBottom=0;fontSize=14;strokeColor=#B266FF;" vertex="1" parent="26">
+                    <mxGeometry x="192.5" y="127.5" width="315" height="255" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="Image URL" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#F7F7F7;fontColor=#6C767D;resizeWidth=1;fontSize=18;align=center;spacing=20;strokeColor=#B266FF;" vertex="1" parent="32">
+                    <mxGeometry width="315" height="180" relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="&lt;span style=&quot;font-size: 20px&quot;&gt;&lt;b&gt;Usename&lt;br&gt;&lt;br&gt;Passsord&lt;br&gt;&lt;br&gt;Favorite Beatboxers&lt;br&gt;&lt;br&gt;Posts&lt;br&gt;&lt;/b&gt;&lt;/span&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#6C767D;html=1;whiteSpace=wrap;fillColor=#ffffff;fontColor=#6C767D;verticalAlign=bottom;align=left;spacing=20;spacingBottom=0;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="960" y="650" width="250" height="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="User" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#F7F7F7;strokeColor=#6C767D;fontColor=#6C767D;resizeWidth=1;fontSize=18;align=left;spacing=20;" vertex="1" parent="34">
+                    <mxGeometry width="250" height="50" relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;" edge="1" parent="1">
+                    <mxGeometry width="100" height="100" relative="1" as="geometry">
+                        <mxPoint x="1212" y="681" as="sourcePoint"/>
+                        <mxPoint x="1290" y="820" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="38" value="&lt;span style=&quot;font-size: 20px&quot;&gt;&lt;b&gt;Username&lt;br&gt;&lt;br&gt;URL&lt;br&gt;&lt;br&gt;Caption&lt;br&gt;&lt;/b&gt;&lt;/span&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#6C767D;html=1;whiteSpace=wrap;fillColor=#ffffff;fontColor=#6C767D;verticalAlign=bottom;align=left;spacing=20;spacingBottom=0;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="1290" y="790" width="250" height="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="Posts" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#F7F7F7;strokeColor=#6C767D;fontColor=#6C767D;resizeWidth=1;fontSize=18;align=left;spacing=20;" vertex="1" parent="38">
+                    <mxGeometry width="250" height="50" relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="&lt;span style=&quot;font-size: 20px&quot;&gt;&lt;b&gt;Username&lt;br&gt;&lt;br&gt;Comment text&lt;br&gt;&lt;/b&gt;&lt;/span&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#6C767D;html=1;whiteSpace=wrap;fillColor=#ffffff;fontColor=#6C767D;verticalAlign=bottom;align=left;spacing=20;spacingBottom=0;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="1620" y="920" width="250" height="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="Comments" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#F7F7F7;strokeColor=#6C767D;fontColor=#6C767D;resizeWidth=1;fontSize=18;align=left;spacing=20;" vertex="1" parent="41">
+                    <mxGeometry width="250" height="50" relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;" edge="1" parent="1">
+                    <mxGeometry width="100" height="100" relative="1" as="geometry">
+                        <mxPoint x="1540" y="810" as="sourcePoint"/>
+                        <mxPoint x="1618" y="949" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
