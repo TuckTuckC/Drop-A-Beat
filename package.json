@@ -1,0 +1,25 @@
+{
+  "name": "drop-a-beat",
+  "version": "1.0.0",
+  "description": "## Concept:  A patform for Beatboxers, similar to instagram. Beatboxers can post comment, and add favorite beatboxers to their profile.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TuckTuckC/Drop-A-Beat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TuckTuckC/Drop-A-Beat/issues"
+  },
+  "homepage": "https://github.com/TuckTuckC/Drop-A-Beat#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "method-override": "^3.0.0",
+    "mongo": "^0.1.0"
+  }
+}
