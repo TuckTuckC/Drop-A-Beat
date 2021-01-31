@@ -6,6 +6,8 @@ const methodOverride = require('method-override');
 const PORT = 3000;
 
 const homeRouter = require('./routes/home');
+const registerRouter = require('./routes/register');
+const loginRouter = require('./routes/login');
 
 // set up express app
 const app = express();
@@ -26,6 +28,8 @@ app.use(mongo, homeRouter);
 
 // root path http:localhost:3000/drop
 app.use('/', homeRouter);
+app.use('/register', registerRouter);
+app.use('/login', loginRouter);
 
 // Tell the app to listen
 app.listen(PORT, () => {
