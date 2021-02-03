@@ -1,3 +1,12 @@
 <%- include('partials/head', {page: 'home'}) %>
 
 <h1>Profile</h1>
+
+<p>Name: <%= user.name %></p>
+<p>Email: <%= user.email %></p>
+<p>Favorite Beatboxers: <% user.beatboxers.forEach(beatboxer => { %>
+    <%= beatboxer %>, 
+<% }) %> </p>
+<p>Posts: <% user.posts.forEach(post => { %>
+    <%= post.caption %> 
+<% }) %> </p>
