@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
-const regCtrl = require('../controllers/register');
+const profileCtrl = require('../controllers/profile');
 
-router.get('/', regCtrl.show);
 
+router.get('/', profileCtrl.show);
 
 module.exports = router;

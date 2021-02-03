@@ -11,8 +11,7 @@ const passport = require('passport');
 const PORT = 3000;
 
 const homeRouter = require('./routes/home');
-const registerRouter = require('./routes/register');
-const loginRouter = require('./routes/login');
+const profileRouter = require('./routes/profile');
 
 // set up express app
 const app = express();
@@ -41,8 +40,7 @@ app.use(mongo, homeRouter);
 
 // root path http:localhost:3000/drop
 app.use('/', homeRouter);
-app.use('/register', registerRouter);
-app.use('/login', loginRouter);
+app.use('/profile', profileRouter);
 
 // Tell the app to listen
 app.listen(PORT, () => {

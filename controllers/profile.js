@@ -1,5 +1,7 @@
 const show = function(req, res) {
-    res.render('login');
+    res.render('profile', {
+        user: req.user,
+    });
 };
 
 module.exports = {
