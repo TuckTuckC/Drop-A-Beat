@@ -1,6 +1,8 @@
 const mongoose = require('mongoose');
+require('dotenv').config();
+const connectionStr = process.env.DATABASE_URL || 'mongodb://localhost/drop';
 
-mongoose.connect('mongodb://localhost/drop', {
+mongoose.connect(connectionStr, {
     useNewUrlParser: true,
     useCreateIndex: true,
     useUnifiedTopology: false,

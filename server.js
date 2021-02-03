@@ -3,6 +3,11 @@ const express = require('express');
 const mongo = require('./config/database');
 const logger = require('morgan');
 const methodOverride = require('method-override');
+require('./config/passport')
+
+const session = require('express-session');
+const passport = require('passport');
+
 const PORT = 3000;
 
 const homeRouter = require('./routes/home');
@@ -23,6 +28,14 @@ app.use(logger('dev'));
 app.use(express.static('public'));
 app.use(express.json());
 app.use(express.urlencoded({extended: false}));
+
+app.use(session({
+    secret: 'tucker',
+    resave: false,
+    saveUninitialized: true,
+}));
+app.use(passport.initialize());
+app.use(passport.session ());
 
 app.use(mongo, homeRouter);
 
