@@ -1,15 +1,13 @@
 <%- include('partials/head', {page: 'home'}) %>
-<%- include('partials/base') %>
 
-<h1>Drop A Beat</h1>
-
-<ul>
+<ul id="posts">
     <% posts.forEach(function(post) { %>
-        <li>
-            <h2>
-                <%= post.user.name %>
-            </h2>
-            <p> <%= post.caption %></p>
-        </li>
-        <% }) %>
+        <div class="card">
+            <h5 class="card-header"><%= post.user.name %></h5>
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text"><%= post.caption %></p>
+            </div>
+        </div>
+    <% }) %>
 </ul>

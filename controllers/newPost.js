@@ -7,7 +7,11 @@ const show = function(req, res) {
 };
 const create = function(req, res) {
     console.log(req.body, 'req.body');
-    Post.create(req.body, (err, createdPost) => {res.redirect('/')});
+    req.body.user = req.user._id;
+    Post.create(req.body, (err, createdPost) => {
+        if (err) {return console.log(err)}
+        res.redirect('/')
+    });
 };
 
 module.exports = {
