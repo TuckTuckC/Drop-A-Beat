@@ -1,4 +1,5 @@
 <%- include('partials/head', {page: 'home'}) %>
+<%- include('partials/base') %>
 
 <h1>Drop A Beat</h1>
 
@@ -6,7 +7,7 @@
     <% posts.forEach(function(post) { %>
         <li>
             <h2>
-                <%= post._id %>
+                <%= post.user.name %>
             </h2>
             <p> <%= post.caption %></p>
         </li>
