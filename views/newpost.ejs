@@ -1,0 +1,7 @@
+<%- include('partials/head', {page: 'New-Post'}) %>
+
+<h1>What's Your Beat??</h1>
+<form action="/newpost" method="POST">
+    <input type="caption" name="caption" placeholder="Caption">
+    <input type="submit" value="Drop the Beat">
+</form>

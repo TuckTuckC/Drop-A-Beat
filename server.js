@@ -12,6 +12,7 @@ const PORT = 3000;
 
 const homeRouter = require('./routes/home');
 const profileRouter = require('./routes/profile');
+const newPostRouter = require('./routes/newpost');
 
 // set up express app
 const app = express();
@@ -41,6 +42,7 @@ app.use(mongo, homeRouter);
 // root path http:localhost:3000/drop
 app.use('/', homeRouter);
 app.use('/profile', profileRouter);
+app.use('/newpost', newPostRouter);
 
 // Tell the app to listen
 app.listen(PORT, () => {

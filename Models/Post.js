@@ -2,8 +2,11 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const postSchema = new Schema({
+    user: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'User',
+    },
     caption: String,
-    username: req.user.name,
 });
 
-module.exports = mongoose.model('post', postSchema);
+module.exports = mongoose.model('post', postSchema, 'posts');
