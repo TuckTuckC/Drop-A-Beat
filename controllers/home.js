@@ -14,7 +14,7 @@ const show = function(req, res) {
 
 const delPost = function(req, res, next) {
     console.log('req.user.posts', req.user.posts);
-    req.user.posts._id(req.params.id).remove();
+    req.user.posts.id(req.params.id).remove();
     req.user.save(function(err) {
         res.redirect('/');
     });
