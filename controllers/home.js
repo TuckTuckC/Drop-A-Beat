@@ -13,9 +13,9 @@ const show = function(req, res) {
 };
 
 const delPost = function(req, res, next) {
-    console.log('req.user.posts', req.user.posts);
-    req.user.posts.id(req.params.id).remove();
-    req.user.save(function(err) {
+    console.log('req.params.id', req.params.id);
+    Post.findByIdAndDelete(req.params.id, (err) => {
+        if (err) console.log(err);
         res.redirect('/');
     });
 };
