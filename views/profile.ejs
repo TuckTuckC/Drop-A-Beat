@@ -2,11 +2,13 @@
 
 <h1>Profile</h1>
 
+<a href="/beatboxer">Add A Favorite Beatboxer</a>
 <p>Name: <%= user.name %></p>
 <p>Email: <%= user.email %></p>
 <p>Favorite Beatboxers: <% user.beatboxers.forEach(beatboxer => { %>
-    <%= beatboxer %>, 
+    <%= beatboxer.string %>, 
 <% }) %> </p>
 <p>Posts: <% user.posts.forEach(post => { %>
-    <%= post.caption %> 
+    <% console.log(post) %> 
+    <h1><%= post.title %> </h1>
 <% }) %> </p>

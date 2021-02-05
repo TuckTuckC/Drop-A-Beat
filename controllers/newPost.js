@@ -13,7 +13,7 @@ const create = function(req, res) {
         req.user.posts.push(createdPost);
         req.user.save(function(err) {
             res.redirect('/')
-    });
+        });
     });
 };
 

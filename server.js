@@ -13,6 +13,7 @@ const PORT = 3000;
 const homeRouter = require('./routes/home');
 const profileRouter = require('./routes/profile');
 const newPostRouter = require('./routes/newpost');
+const beatboxerRouter = require('./routes/beatboxer');
 
 // set up express app
 const app = express();
@@ -43,6 +44,7 @@ app.use(mongo, homeRouter);
 app.use('/', homeRouter);
 app.use('/profile', profileRouter);
 app.use('/newpost', newPostRouter);
+app.use('/beatboxer', beatboxerRouter);
 
 // Tell the app to listen
 app.listen(PORT, () => {

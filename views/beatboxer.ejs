@@ -1,0 +1,11 @@
+<%- include('partials/head', {page: 'New-Beatboxer'}) %>
+
+<h1 id="beat">Which Beatboxer would you like to add?</h1>
+<form action="/beatboxer" method="POST">
+    <div id="newBeatboxer" class="card">
+        <input type="string" name="string" placeholder="Beatboxer">
+        <div class="card-body">
+          <input type="submit" value="Add Beatboxer">
+        </div>
+    </div>
+</form>
