@@ -4,6 +4,15 @@ const passport = require('passport');
 const homeCtrl = require('../controllers/home');
 
 router.get('/', homeCtrl.show);
+
+// DELETE /post/:id
+const isLoggedIn = function(req, res, next) {
+    if (req.isAuthenticated()) return next();
+    res.redirect('/auth/google');
+};
+
+router.delete('/post/:id', isLoggedIn, homeCtrl.delPost);
+
 router.get('/auth/google', passport.authenticate(
     'google',
     {scope: ['profile', 'email']},

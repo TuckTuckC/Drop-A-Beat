@@ -10,7 +10,10 @@ const create = function(req, res) {
     req.body.user = req.user._id;
     Post.create(req.body, (err, createdPost) => {
         if (err) {return console.log(err)}
-        res.redirect('/')
+        req.user.posts.push(createdPost);
+        req.user.save(function(err) {
+            res.redirect('/')
+    });
     });
 };
 

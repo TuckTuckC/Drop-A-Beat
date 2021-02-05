@@ -2,11 +2,18 @@
 
 <ul id="posts">
     <% posts.forEach(function(post) { %>
-        <div class="card">
+        <div id="post" class="card">
             <h5 class="card-header"><%= post.user.name %></h5>
             <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text"><%= post.caption %></p>
+                <h5 class="card-title"><%= post.title %></h5>
+                <p class="card-text"><%= post.caption %></p>
+                <% if (user) { %> 
+                    <% if (user._id.equals(user && user._id)) { %>
+                        <form method="POST" action="/post/<%= post._id %>?_method=DELETE">
+                            <button type="submit" class="btn red-text">DELETE</button>
+                        </form> 
+                    <% } %> 
+                <% } %> 
             </div>
         </div>
     <% }) %>
