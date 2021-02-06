@@ -1,14 +1,22 @@
 <%- include('partials/head', {page: 'Profile'}) %>
 
-<h1>Profile</h1>
+<h1 id="profile">Profile</h1>
 
-<a href="/beatboxer">Add A Favorite Beatboxer</a>
-<p>Name: <%= user.name %></p>
-<p>Email: <%= user.email %></p>
-<p>Favorite Beatboxers: <% user.beatboxers.forEach(beatboxer => { %>
-    <%= beatboxer.string %>, 
-<% }) %> </p>
-<p>Posts: <% user.posts.forEach(post => { %>
-    <% console.log(post) %> 
-    <h1><%= post.title %> </h1>
-<% }) %> </p>
+<div class="card" style="width: 18rem;">
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">Name: <%= user.name %></li>
+      <li class="list-group-item">Email: <%= user.email %></li>
+    </ul>
+</div>
+
+<div id="favBeatboxers" class="card" style="width: 18rem;">
+    <div class="card-header">
+        Favorite Beatboxers
+    </div>
+    <a href="/beatboxer" class="btn btn-info">Add A Favorite Beatboxer</a>
+    <ul class="list-group list-group-flush">
+            <% user.beatboxers.forEach(function(beatboxer) { %> 
+                <li class="list-group-item"><%= beatboxer.string %> </li>
+            <% }) %> 
+    </ul>
+</div>

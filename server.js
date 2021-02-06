@@ -14,6 +14,7 @@ const homeRouter = require('./routes/home');
 const profileRouter = require('./routes/profile');
 const newPostRouter = require('./routes/newpost');
 const beatboxerRouter = require('./routes/beatboxer');
+const commentsRouter = require('./routes/comments');
 
 // set up express app
 const app = express();
@@ -37,6 +38,10 @@ app.use(session({
 }));
 app.use(passport.initialize());
 app.use(passport.session ());
+app.use((req, res, next) => {
+    app.locals.user = req.user;
+    next();
+});
 
 app.use(mongo, homeRouter);
 
@@ -45,6 +50,7 @@ app.use('/', homeRouter);
 app.use('/profile', profileRouter);
 app.use('/newpost', newPostRouter);
 app.use('/beatboxer', beatboxerRouter);
+app.use('/comments', commentsRouter);
 
 // Tell the app to listen
 app.listen(PORT, () => {

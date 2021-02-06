@@ -3,10 +3,7 @@
 <ul id="posts">
     <% posts.forEach(function(post) { %>
         <div id="post" class="card">
-            <h5 class="card-header"><%= post.user.name %></h5>
-            <div class="card-body">
-                <h5 class="card-title"><%= post.title %></h5>
-                <p class="card-text"><%= post.caption %></p>
+            <h5 class="card-header"><%= post.user.name %> 
                 <% if (user) { %> 
                     <% if (user._id.equals(user && user._id)) { %>
                         <form method="POST" action="/post/<%= post._id %>?_method=DELETE">
@@ -14,6 +11,24 @@
                         </form> 
                     <% } %> 
                 <% } %> 
+            </h5>
+            <div class="card-body">
+                <h5 class="card-title"><%= post.title %></h5>
+                <p class="card-text"><%= post.caption %></p>
+                <div id="homeComments" class="card" style="width: 18rem;">
+                    <div class="card-header">
+                        Comments
+                    </div>
+                    <a href="/comments/addComment/<%= post._id %>" class="btn btn-info">Add a Comment</a>
+                    <ul class="list-group list-group-flush">
+                        
+                        <% if (post.comments) { %> 
+                            <% post.comments.forEach(function(comment) { %> 
+                                <li class="list-group-item"><%= comment.body %> </li>
+                            <% }) %> 
+                        <% } %> 
+                    </ul>
+                </div>
             </div>
         </div>
     <% }) %>

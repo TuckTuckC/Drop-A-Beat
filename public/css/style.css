@@ -2,11 +2,10 @@
     margin: 0;
 }
 body { 
-    background: url(../images/subwoofer.jpeg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background-image: url(/images/subwoofer.jpeg) !important; 
     background-size: cover;
+    background-position: center fill;
+    background-repeat: no-repeat;
 }
 
 /* Nav Bar Button Styling */
@@ -37,4 +36,26 @@ body {
 #newPost {
     margin: 0 auto;
     max-width: 600px;
+}
+
+/* Comments */
+#newComment {
+    margin: 0 auto;
+    max-width: 600px;
+    margin-top: 30px;
+}
+
+#homeComments {
+    margin-top: 30px;
+}
+
+/* Profile Beatboxers */
+#favBeatboxers {
+    left: 300px;
+    top: -82px
+}
+
+#profile {
+    margin-top: 30px;
+    color: white;
 }

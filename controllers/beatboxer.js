@@ -5,8 +5,7 @@ const show = function(req, res) {
 };
 
 const create = function(req, res) {
-    req.body.user = req.user._id;
-        req.user.beatboxers.push(req.body);
+        req.post.beatboxers.push(req.body);
         req.user.save(function(err) {
             res.redirect('/profile');
         });

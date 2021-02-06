@@ -1,0 +1,13 @@
+<%- include('partials/head', {page: 'New-Post'}) %>
+
+<form id="newComment" action="/comments/addComment/<%= postId %> " method="POST">
+    <div id="newComment">
+        <div id="newComment" class="card-header">
+            What's your comment?
+        </div>
+        <ul class="list-group list-group-flush">
+            <input type="comment" name="body" placeholder="Comment">
+            <input class="btn btn-success" type="submit" value="Drop that Comment">
+        </ul>
+    </div>
+</form>

@@ -5,6 +5,7 @@ const show = function(req, res) {
         if (err) {return console.log(err)};
         const context = {
             posts,
+            comments: Post.comment,
             user: req.user || false,
         };
         console.log(posts);
