@@ -31,7 +31,7 @@ A big challenge for me was the comments. Because I don't fully understand yet ho
 
 ## Additional information:
 I will be dropping pleanty of beats while this proect is in production.
-I also want to add the functionality to look at other peoples profiles by clicking on their username in a post that you see. And also adding a delete function for comments, and maybe audio/video uploads whenever I learn how.
+I also want to add the functionality to look at other peoples profiles by clicking on their username in a post that you see. And also adding a delete function for comments, and maybe audio/video uploads whenever I learn how. I would also like to make it so that you can see all of your posts from your profile.
 
 ## App Demo 
 https://github.com/TuckTuckC/Drop-A-Beat

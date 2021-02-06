@@ -6,6 +6,7 @@ body {
     background-size: cover;
     background-position: center fill;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 /* Nav Bar Button Styling */
@@ -38,6 +39,10 @@ body {
     max-width: 600px;
 }
 
+#beat {
+    color: white;
+}
+
 /* Comments */
 #newComment {
     margin: 0 auto;
@@ -47,6 +52,10 @@ body {
 
 #homeComments {
     margin-top: 30px;
+}
+
+#newCommentTxt {
+    color: white;
 }
 
 /* Profile Beatboxers */
